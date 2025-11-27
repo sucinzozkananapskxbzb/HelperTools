@@ -1,7 +1,7 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
-from config import BOT_TOKEN, ADMIN_IDS
+from config import 7132766320:AAE4tzGQt_2pqrxM1D6Z5CmPAg4NOAiekFI, 7572008041
 from database import db
 from handlers import auth, workout, trading, coding, fun, ai, payment, admin
 
@@ -20,8 +20,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         db.register_user(user.id, user.username, user.first_name, user.last_name)
         
         keyboard = [
-            [InlineKeyboardButton("✅ Join Channel", url="https://t.me/your_channel")],
-            [InlineKeyboardButton("✅ Join Group", url="https://t.me/your_group")],
+            [InlineKeyboardButton("✅ Join Channel", url="https://t.me/Helpers_tools")],
+            [InlineKeyboardButton("✅ Join Group", url="https://t.me/tools_helpBit")],
             [InlineKeyboardButton("🔄 Cek Keanggotaan", callback_data="check_membership")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
