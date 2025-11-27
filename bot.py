@@ -21,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         keyboard = [
             [InlineKeyboardButton("✅ Join Channel", url="https://t.me/Helpers_tools")],
-            [InlineKeyboardButton("✅ Join Group", url="https://t.me/tools_helpBit")],
+            [InlineKeyboardButton("✅ Join Group", url="https://t.me/tools_helpBot")],
             [InlineKeyboardButton("🔄 Cek Keanggotaan", callback_data="check_membership")]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
