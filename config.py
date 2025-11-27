@@ -7,8 +7,8 @@ load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
 
 # Channel & Group Requirements
-CHANNEL_USERNAME = "@your_channel"
-GROUP_USERNAME = "@your_group"
+CHANNEL_USERNAME = "@Helpers_tools"
+GROUP_USERNAME = "@tools_helpBot"
 
 # API Keys (Isi dengan API key Anda)
 DEEPSEEK_API_KEY = "your_deepseek_api_key_here"
